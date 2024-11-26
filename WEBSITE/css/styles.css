@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #3c5782;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #3c5782;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 300px;
+    margin: 1rem auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #000000;
+}

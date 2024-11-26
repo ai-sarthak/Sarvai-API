@@ -1,0 +1,35 @@
+Features:
+    1) QR Code generator                (QCG)  [API]   [qcg_apidoc.html]    [Free for limited time.]
+    2) OCR from image                   (IOCR) [API]   [iocr_apidoc.html]   [Free for limited time.]
+    3) Speech to Text                   (S2T)  [API]   [s2t_apidoc.html]    [Free for limited time.]
+    4) Text to Speech                   (T2S)  [API]   [t2s_apidoc.html]    [Free for limited time.]
+    5) Voice translation                (VT)   [API]   [vt_apidoc.html]     [Free for limited time.]
+    6) text translation                 (TT)   [API]   [tt_apidoc.html]     [Free for limited time.]
+    7) Audio Chunking                   (AC)   [API]   [ac_apidoc.html]     [Free for limited time.]
+    8) Image custom Object recognition  (ICOR) [API]   [icor_apidoc.html]   [Free for limited time.]
+    9) Face Verification                (FV)   [API]   [fv_apidoc.html]     [Free for limited time.]
+    10) Face Recognition                (FR)   [API]   [fr_apidoc.html]     [Free for limited time.]
+    11)* Audio Authentication
+
+    "QR Code Generator"
+     "Image OCR"
+      "Speech to Text"
+       "Text To Speech"
+        "Voice Translation"
+         "Text Translation"
+          "Audio Chunking"
+           "Image Object Recognition"
+            "Face Verification"
+             "Face Recognition"
+
+      <a href="al_QCG.php">QR Code Generator</a>
+      <a href="al_IOCR.php">Image OCR</a>
+      <a href="al_S2T.php">Speech to Text</a>
+      <a href="al_T2S.php">Text To Speech</a>
+      <a href="al_VT.php">Voice Translation</a>
+      <a href="al_TT.php">Text Translation</a>
+      <a href="al_AC.php">Audio Chunking</a>
+      <a href="al_ICOR.php">Image Object Recognition</a>
+      <a href="al_FV.php">Face Verification</a>
+      <a href="al_FR.php">Face Recognition</a>
+    

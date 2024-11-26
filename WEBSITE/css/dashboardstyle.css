@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: none; 
+}
+
+.content {
+    align-items: center;
+    position: relative;
+    margin-left: 12%; /* Adjusted to push content from the left to make space for sidebar */
+    padding: 90px 20px 20px; /* Added padding-top to create space for navbar */
+    overflow-y: auto;
+    min-height: 100%; /* Make content area scrollable */
+}
+
+.navbar {
+    background-color: #3c5782;
+    overflow: hidden;
+    max-height: fit-content;
+    position:static;
+    
+}
+
+.navbar h2{
+    text-align: center;
+    color:#ffffff;
+}
+
+.dropdown {
+    position: absolute; /* Set the dropdown to absolute positioning */
+    top: 0;
+    right: 0;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #f2f2f2;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 14px 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+    top: 100%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 159px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-delay: 1s;
+}
+.sidebar {
+    width: 12%;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    position: absolute;
+    top: 9%;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto; /* Allow sidebar to be scrollable if needed */
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.sidebar h1 {
+    font-size: larger;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.sidebar.service-dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 15px;
+}
+
+.service-dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f3f3f3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.service-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.service-dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.service-dropdown:hover .service-dropdown-content {
+    display: block;
+    
+}
+
+
+.footer {
+    background-color: #3c5782;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height:5%;
+    width: 100%;
+    z-index: 1000; /* Ensure footer is above other elements */
+}
+
+
+.service-form {
+    display: none;
+}
+.service-form.active {
+    display: block;
+}
+
+
+
+#change_service{
+    padding-bottom: 20px !important;
+}
+#remove_acc{
+    background-color: red !important;
+    color:#ddd !important;
+}
